@@ -1,0 +1,388 @@
+h1 {
+    font-family: sans-serif;
+    color: black;
+}
+h2
+{
+    font-family: Arial, sans-serif;
+    color: black;
+}
+h3
+{
+    font-family: Arial, sans-serif;
+    color: black;
+}
+h5
+{
+    font-family: Arial, sans-serif;
+    color: black;
+}
+p {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+a {
+    font-family: Arial, sans-serif;
+    color: black;  
+    text-decoration: none;
+}
+.barra ul{
+    list-style: none;
+    left: 20px;
+    display: flex;
+    column-count: 10;
+    justify-content: space-around; /*espacio entre columnas*/
+    position: relative; /*activar manipulacion de donde ira*/
+    top: 0px;
+    flex-wrap: wrap;
+}
+.icon{
+    position: relative;
+    top: -15px;
+    flex-wrap: wrap;
+}
+.parte_uno {
+    display: inline-block;
+    padding: 150px 440px;
+    background-color: #c6e2fa;
+    position: relative;
+    top: -30px;
+    flex-wrap: wrap;
+}
+.mover2{
+    position: relative;
+    top:-550px;
+    left: 700px;
+    flex-wrap: wrap;
+}
+.container{
+    position: relative;
+    right: 25%;
+}
+.parte_uno {
+        text-align: center;
+        & img{
+            width: 70%;
+            height: 70%;
+            object-fit: cover;
+            border-radius: 13px;
+            display: block;
+            margin: auto;
+        }
+}
+.parte_uno h1{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: -320px;
+    flex-wrap: wrap;
+}
+.parte_uno p{
+    font-size: 18px;
+    line-height: 30px; /*interlineado*/
+    width: 460px; /*anchura del parrafo*/
+    position: relative;
+    top: 20px;
+    left: -320px;
+    flex-wrap: wrap;
+}
+.parte_uno ul {
+    font-size: 18px;
+    width: 400px;
+    position: relative;
+    top: 35px;
+    left: -380px;
+
+    list-style: none;
+    display: flex;
+    column-count: 2;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.btn-uno{
+    display: inline-block; /*encuadre texto*/
+    padding: 10px 20px; /*tamaño de texto para afuera*/
+    background-color: blue; /*fondo*/
+    color: white; /*letra*/
+    text-decoration: none; /*sin subrayado*/
+    border: none; /*sin borde*/
+    cursor: pointer; /*interaccion*/
+    position: relative;
+    top:-10px;
+    flex-wrap: wrap;
+}
+.parte_dos {
+    position: relative;
+    top: 100px;
+    left: -15px;
+    line-height: 18px;
+    flex-wrap: wrap;
+}
+.parte_dos ul{
+    list-style: none;
+    display: flex;
+    column-count: 4;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.parte_dos a {
+    color: blue;
+    flex-wrap: wrap;
+}
+.parte_dos h3{
+    width: 300px;
+    line-height: 20px;
+    flex-wrap: wrap;
+}
+.parte_dos p{
+    width: 300px;
+    line-height: 20px;
+    flex-wrap: wrap;
+}
+
+.parte_tres {
+    display: inline-block;
+    background-color: #e7e7e7;
+    padding: 10px 200px 0px 200px;
+    position: relative;
+    top: 150px;
+    left: 60px;
+    flex-wrap: wrap;
+}
+.mover1{
+    position: relative;
+    right: -150px;
+    top: 19px;
+    flex-wrap: wrap;
+}
+.parte_tres h1{
+    position: relative;
+    top: 200px;
+    left: -80px;
+    width: 280px;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+.parte_tres p{
+    position: relative;
+    top: 200px;
+    left: -80px;
+    width: 250px;
+    flex-wrap: wrap;
+}
+.parte_tres a{
+    position: relative;
+    top: 0px;
+    left: -80px;
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.parte_cuatro {
+    position: relative;
+    top: 200px;
+    left: 70px;
+    flex-wrap: wrap;
+}
+.parte_cuatro h2{
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+.parte_cuatro ul{
+    display: flex;
+    column-count: 4;
+    justify-content: space-around;
+    position: relative;
+    left: -58px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.parte_cuatro h3{
+    font-size: 20px;
+    width: 300px;
+    line-height: 20px;
+    flex-wrap: wrap;
+}
+.parte_cuatro p{
+    width: 300px;
+    line-height: 20px;
+    flex-wrap: wrap;
+}
+.parte_cuatro a{
+    width: 30px;
+    color: blue;
+    position: relative;
+    top: 10px;
+    flex-wrap: wrap;
+}
+.pie_de_pagina{
+    position: relative;
+    top: 250px;
+    font-size: 15px;
+    color: dimgray;
+    flex-wrap: wrap;
+}
+.redes ul {
+    list-style: none;
+    display: flex;
+    column-count: 4;
+    justify-content: space-around;
+    width: 300px;
+    position: relative;
+    top: 250px;
+    flex-wrap: wrap;
+}
+.redes ul p {
+    position: relative;
+    top: -12px;
+    flex-wrap: wrap;
+}
+.pie_de_pagina {
+    background-color: #f2f2f2;
+    padding: 20px 20px 0px 20px;
+    color: #7a7a77;
+    flex-wrap: wrap;
+}
+.filas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.enlaces{
+    font-size: 13px;
+    position: relative;
+    left: -20px;
+    width: 210px;
+    padding: 0 0 0 5px;
+    line-height: 28px;
+    flex-wrap: wrap;
+}
+.enlaces h5{
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+.enlaces ul{
+    list-style: none;
+    flex-wrap: wrap;
+}
+.ultima ul{
+    list-style: none;
+    display: flex;
+    column-count: 8;
+    justify-content: space-around;
+    color: #7a7a77;
+    position: relative;
+    font-size: 12px;
+    bottom: -10px;
+    flex-wrap: wrap;
+}
+.ordenar1{
+    position: relative;
+    bottom: 18px;
+    flex-wrap: wrap;
+}
+.ordenar2{
+    position: relative;
+    bottom: 11.5px;
+    flex-wrap: wrap;
+}
+
+/*microsoft 365*/
+.parte_uno_m{
+    background-image: linear-gradient(to bottom, #c3dffa 80%, #ffffff);
+    padding-bottom: 50px;
+    position: relative;
+    top: -30px;
+}
+.lista1_m{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lista1_m img{
+    position: relative;
+    top: 80px;
+}
+.arreglar_m1{
+    position: relative;
+    top:100px;
+    left: 80px;
+    line-height: 35px;
+}
+.lista2_m{
+    position: relative;
+    top: 20px;
+    display: block;
+    column-count: 2;
+    list-style: none;
+    line-height: 50px;
+}
+.lista2_m a{
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 50px;
+}
+.pie{
+    text-align: center;
+    position: relative;
+    top:140px;
+    font-size: 35px;
+}
+.parte_dos_m ul{
+    position: relative;
+    top:80px;
+    display:flexbox;
+    column-count: 2;
+    width: 940px;
+    list-style: none;
+    line-height: 30px;
+    justify-content: justify;
+}
+.parte_dos_m ul a{
+    color: #0078d4;
+}
+.parte_tres_m{
+    position: relative;
+    top:150px;
+    text-align: center;
+}
+.parte_tres_m ul{
+    list-style: none;
+    display: flex;
+    text-align: justify;
+}
+.lista5_m{
+    position: relative;
+    top: 150px;
+    line-height: 30px;
+}
+.parte_cuatro_m{
+    position: relative;
+    top:150px;
+    text-align: center;
+}
+.list_m{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.lista6_m{
+    position: relative;
+    top: 100px;
+    line-height: 30px;
+    text-align: justify;
+    width: 550px;
+}
+.prueba_m{
+    position: relative;
+    top:50px;
+}
+.prueba_m ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
